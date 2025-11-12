@@ -1,3 +1,19 @@
-node_modules
+# .gitignore
+# Environment files
 .env
+.env.local
+.env.development
+.env.production
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Builds
+dist/
+build/
+
+# OS files
 .DS_Store
+Thumbs.db
